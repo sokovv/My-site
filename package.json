@@ -1,6 +1,7 @@
 {
   "name": "name-of-your-project",
   "private": true,
+  "homepage": "https://sokovv.github.io/My-site",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
