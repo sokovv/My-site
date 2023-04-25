@@ -16,7 +16,6 @@ export default function About() {
               t.me/Sokolov_web_developer
             </a>
           </div>
-          <div>Портфолио:_______</div>
           <div>
             Github: <a href="https://github.com/sokovv">github.com/sokovv</a>
           </div>
