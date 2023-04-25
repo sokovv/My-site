@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=cyrillic-ext");
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #727e86;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+p {
+  text-indent: 30px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+p1 {
+  font-weight: 700;
+}
+
+p2 {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+
+.resume {
+  border: #333333 solid 2px;
+  padding: 2em;
+  padding-top: 0px;
+  border-radius: 10px;
+}
+
+
+.resumeHeader {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.meInfo {
+  text-align: start;
+}
+
+.prof {
+  margin-top: 40px;
+  color: brown;
+}
+
+.container {
+  margin-bottom: 150px;
+}
+
+.resumeBody {
+  margin-top: 80px;
+}
+
+.experience {
+  margin-top: 50px;
+}
+
+section {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* Common Styles */
+.invisible {
+  opacity: 0;
+}
+
+
+/* Header */
+.containerHeader {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Footer */
+.containerFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-image: url(../public/img/Footer1.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #9aaab6;
+}
+
+.itemsPortfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card-body {
+  font-size: 12px;
+  width: 350px;
+  border: #e1cbcb solid 3px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 510px;
+}
+
+
+/* Banner */
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner-header {
+  position: relative;
+  width: 150px;
+  margin-right: 10px;
+}
+
+
+/* Portfolio */
+
+
+
+/* Preloader */
+
+/* Top Sales */
+
+
+/* Catalog */
+
+
+/* Footer */
+
+/* Bootstrap */
+.nav-link.active {
+  color: #20a07e;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  font-weight: 700;
+  background-color: rgb(246, 244, 244);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navbar {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 10px;
+  gap: 20px;
+}
+
+h2,
+.h2 {
+  margin-bottom: 1.5em;
+  margin-top: 2em;
+}
+
+.btn-outline-primary {
+  color: #727e86;
+  border-color: #727e86;
+}
+
+.btn-outline-primary:hover {
+  background-color: #727e86;
+  border-color: #727e86;
+}
