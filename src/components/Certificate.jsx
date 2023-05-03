@@ -51,10 +51,12 @@ export default function Certificate() {
         {certificate.map((item, key) => (
           <div key={key}>
             <div className="card-body-certificate">
+            <a href= {item.image} rel="nofollow" target="_blank">
               <img
                 className="imagePortfolio img-fluid"
                 src={item.image}
               />
+              </a>
             </div>
           </div>
         ))}

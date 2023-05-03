@@ -149,20 +149,16 @@ section {
   margin-right: 10px;
 }
 
+.mainHeader {
+  display: flex;
+  align-items: flex-start;
+}
 
-/* Portfolio */
-
-
-
-/* Preloader */
-
-/* Top Sales */
-
-
-/* Catalog */
-
-
-/* Footer */
+.mainHeader .selected {
+  align-self: center;
+  margin-left: 2%;
+}
+  
 
 /* Bootstrap */
 .nav-link.active {

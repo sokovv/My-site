@@ -82,11 +82,13 @@ export default function Portfolio() {
         {portfolio.map((item, key) => (
           <div key={key}>
             <div className="card-body">
+            <a href= {item.image} rel="nofollow" target="_blank">
               <img
                 className="imagePortfolio img-fluid"
                 alt={item.title}
                 src={item.image}
               />
+              </a>
               <br />
               <br />
               <div className="card-text">
@@ -101,7 +103,7 @@ export default function Portfolio() {
               </div>
 
               {item.url &&  <div className="card-text">
-              <p1>Ссылка:</p1> <a href={`${item.url}`}>
+              <p1>Ссылка:</p1> <a href={`${item.url}`} >
                    {item.url}
                 </a>
               </div>}
