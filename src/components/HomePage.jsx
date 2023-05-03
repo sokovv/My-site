@@ -5,7 +5,7 @@ export default function HomePage() {
         <div>
           <img className="mePhoto img-fluid" src="./img/me.png" />
         </div>
-        <h2 className="text-center selected">Валерий Соколов</h2>
+        <h3 className="text-center selected">Привет! Я Fullstack-разработчик Валерий Соколов <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h3> 
       </div>
       <h2 className="text-center">Обо мне</h2>
       <p>
