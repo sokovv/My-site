@@ -4,7 +4,7 @@ export default function About() {
       <h2 className="text-center"></h2>
       <div className="resumeHeader">
         <div>
-          <img className="mePhoto img-fluid" src="./img/me.png" />
+          <img className="mePhoto img-fluid" src="./img/я2.png" />
         </div>
         <div className="meInfo">
           <h3>Валерий Соколов</h3>
