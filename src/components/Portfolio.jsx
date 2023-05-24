@@ -7,12 +7,27 @@ const portfolio = [
     urlGit: "https://github.com/sokovv/Cinema",
   },
   {
+    title: "Платежный сервис",
+    task: "Приложение для отложенных переводов денежных средств между клиентами.",
+    tech: "PHP, фреймворк Laravel, MySQL, HTML, CSS",
+    image: "./img/payment-system.png",
+    urlGit: "https://github.com/sokovv/Payment-systems",
+  },
+  {
     title: "Интернет-магазин обуви",
     task: "Создание работающего приложения, всеми основными функциями которого можно пользоваться",
     tech: "JavaScript, React JS, React router, Redux, Redux Toolkit, HTML, CSS, Fetch API, сервис — Render(Для серверной части)", 
     image: "./img/shop.png",
     url: "https://sokovv.github.io/ra-diplom-frontend/",
     urlGit: "https://github.com/sokovv/ra-diplom-frontend",
+  },
+  {
+    title: "Мировые часы",
+    task: "Часы, показывающие время в разных городах мира. Вводите название города и его часовой пояс относительно Гринвича, получаете красивые часики на стене)",
+    tech: "JavaScript, React JS, HTML, CSS ", 
+    image: "./img/часы.png",
+    url: "https://sokovv.github.io/ReactHW6.1/",
+    urlGit: "https://github.com/sokovv/ReactHW6.1",
   },
   {
     title: "Бот для поиска и хранения информации",

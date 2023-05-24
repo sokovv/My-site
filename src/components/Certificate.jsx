@@ -1,5 +1,8 @@
 const certificate = [
   {
+    image: "./img/certificate/0.jpg",
+  },
+  {
     image: "./img/certificate/1.jpg",
   },
   {
@@ -46,7 +49,7 @@ const certificate = [
 export default function Certificate() {
   return (
     <section className="containerPortfolio">
-      <h2 className="text-center">Сертификаты</h2>
+      <h2 className="text-center">Диплом, Сертификаты</h2>
       <div className="itemsPortfolio">
         {certificate.map((item, key) => (
           <div key={key}>
