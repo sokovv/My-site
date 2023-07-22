@@ -7,6 +7,13 @@ const portfolio = [
     urlGit: "https://github.com/sokovv/Cinema",
   },
   {
+    title: "Шар предсказаний",
+    task: "Веб-приложение для получения случайного ответа на вопрос пользователя по типу шара предсказаний.",
+    tech: "PHP, фреймворк Laravel, MySQL, HTML, CSS",
+    image: "./img/magic_ball.png",
+    urlGit: "https://github.com/sokovv/MagicBall",
+  },
+  {
     title: "Платежный сервис",
     task: "Приложение для отложенных переводов денежных средств между клиентами.",
     tech: "PHP, фреймворк Laravel, MySQL, HTML, CSS",
